@@ -1,0 +1,77 @@
+################################################################################
+# IDEs e Ferramentas de Desenvolvimento
+################################################################################
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+################################################################################
+# Maven e Java
+################################################################################
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Diretórios de build
+target/
+build/
+
+# Permitir versões específicas em diretórios de código-fonte
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Arquivos compilados
+*.class
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Pacotes e arquivos de distribuição
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs de crash da JVM
+hs_err_pid*
+replay_pid*
+
+################################################################################
+# Documentação
+################################################################################
+
+HELP.md
+
+################################################################################
+# Fonte: https://www.toptal.com/developers/gitignore/api/java
+################################################################################
